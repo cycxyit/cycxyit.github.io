@@ -1,0 +1,52 @@
+body {
+				background-color: #d5ffdf;
+				background-size: cover;
+				border-radius: 20px;
+}
+.biaoti {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+}
+
+.msg {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+}
+
+.msg input{
+				margin: 2px;
+				background: none;
+				border-radius: 10px;
+				width: 500px;
+				height: 40px;
+				outline: none;
+				border: #ff8a80 solid;
+}
+
+.tijiao{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+}
+
+.tijiao input[type="submit"]{
+				outline: none;
+				border-radius: 20px;
+				border: #6acbff solid;
+				background: #6acbff;
+				width: 98px;
+				height: 40px;
+}
+
+.tijiao input[type="submit"]:hover{
+				background-color: #2ecc71;
+    			width: 180px;
+    			transition: 0.7s;
+				cursor: pointer;
+}
+
+#submit{
+				font-size: 24px;
+}

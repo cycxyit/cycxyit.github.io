@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+				<meta charset="UTF-8"/>
+				<title>辞职信</title>
+				<link rel="stylesheet" href="style.css">
+</head>
+<body>
+				<div class="biaoti">
+								<h1>请输入辞职信息</h1>
+								<p><br></p>
+								</div>
+								<div class="msg">
+												<input id="mytext" type="paragraph" placeholder="请输入文字信息">
+								</div>
+								<div class="tijiao">
+											 <p><br></p>
+											 <input id="submit" type="submit" value="提交" onclick="check()">
+								</div>
+				</div>
+</body>
+<script>
+				var a = "注意，这只是纯属娱乐"
+				alert(a);
+</script>
+<script>
+				function check() {
+								var text = document.querySelector('#mytext');
+								
+								if(text.value.length < 50) {
+												alert('信息少于50字，无法提交');
+								}else {
+												alert('网络延迟，请稍候再试，谢谢');
+								}
+				}
+</script>
+</html>
